@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+div{
+    padding: 5px;
+    margin: 5px;
+}
+.navbar{
+    background-color: lightgrey;
+    border: 2px solid black;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+#logo img{
+    width: 32px;
+    height: 32px;
+    float: left;
+}
+#linksgroup{
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+}
+#linksgroup a{
+    text-decoration: none;
+}
+.banner{
+    background-image: url('images/kylebackground.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 960px;
+    padding: 0px;
+    margin: 0px;
+}
+#bannertext{
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+#bannertext a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    margin-top: 1em;
+    background-color: yellow;
+    font-family: 'Comic Neue', cursive;
+    opacity: 0.7;
+    transition: 0.6s;
+}
+#bannertext a:hover{
+    opacity: 1;
+    transition: 0.6s;
+    padding: 10px;
+    font-size: larger;
+}
+#bannertext h1 span{
+    color: blue;
+}
+.footer{
+    background-color: yellow;
+}
+#footertext{
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+}
+#footerlinks{
+    display:inline;
+}
+#footerlinks a{
+    float: right;
+}
